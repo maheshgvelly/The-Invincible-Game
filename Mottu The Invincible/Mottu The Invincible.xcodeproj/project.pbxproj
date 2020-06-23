@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5117A15F1D3F2B18004A57C9 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117A15E1D3F2B18004A57C9 /* AudioManager.swift */; };
+		512F07AA1D24A18B005E19C0 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F07A91D24A18B005E19C0 /* GameData.swift */; };
+		513DD6AA1D1DBBCE00E3B6E4 /* CollectablesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DD6A91D1DBBCE00E3B6E4 /* CollectablesController.swift */; };
+		514C5B911D1CD8650073C68A /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514C5B901D1CD8650073C68A /* GameManager.swift */; };
+		5155C61A1D0A6DA500996540 /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5155C6191D0A6DA500996540 /* Player.atlas */; };
+		5155C61C1D0A7B8000996540 /* GameplaySceneExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5155C61B1D0A7B8000996540 /* GameplaySceneExtension.swift */; };
+		516181271D10EABB00AFB84B /* BGClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516181261D10EABB00AFB84B /* BGClass.swift */; };
+		5161812A1D10F3D800AFB84B /* CloudController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516181291D10F3D800AFB84B /* CloudController.swift */; };
+		5162B8B51D14CC590043D913 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5162B8B41D14CC590043D913 /* MainMenu.sks */; };
+		5187EF9D1D14D85F000C56B1 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187EF9C1D14D85F000C56B1 /* MainMenuScene.swift */; };
+		51E371041D1613D400B17A53 /* HighscoreScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51E371031D1613D400B17A53 /* HighscoreScene.sks */; };
+		51E371061D1617A100B17A53 /* OptionScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51E371051D1617A100B17A53 /* OptionScene.sks */; };
+		51F3A4831D1A351E0054C980 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F3A4821D1A351E0054C980 /* GameController.swift */; };
+		51F5EF7F1D18D8BE00556815 /* HighscoreScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F5EF7E1D18D8BE00556815 /* HighscoreScene.swift */; };
+		51F5EF811D18D91D00556815 /* OptionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F5EF801D18D91D00556815 /* OptionScene.swift */; };
+		51FD50F01D07B7BB00D38D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FD50EF1D07B7BB00D38D72 /* AppDelegate.swift */; };
+		51FD50F21D07B7BB00D38D72 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51FD50F11D07B7BB00D38D72 /* GameScene.sks */; };
+		51FD50F41D07B7BB00D38D72 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FD50F31D07B7BB00D38D72 /* GameScene.swift */; };
+		51FD50F61D07B7BB00D38D72 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FD50F51D07B7BB00D38D72 /* GameViewController.swift */; };
+		51FD50F91D07B7BB00D38D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FD50F71D07B7BB00D38D72 /* Main.storyboard */; };
+		51FD50FB1D07B7BB00D38D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FD50FA1D07B7BB00D38D72 /* Assets.xcassets */; };
+		51FD50FE1D07B7BB00D38D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FD50FC1D07B7BB00D38D72 /* LaunchScreen.storyboard */; };
+		51FD51091D07B7BB00D38D72 /* Mottu_The_InvincibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FD51081D07B7BB00D38D72 /* Mottu_The_InvincibleTests.swift */; };
+		51FD51141D07B7BB00D38D72 /* Mottu_The_InvincibleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FD51131D07B7BB00D38D72 /* Mottu_The_InvincibleUITests.swift */; };
+		51FD514D1D07BD2000D38D72 /* Pause Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51231D07BD2000D38D72 /* Pause Menu.png */; };
+		51FD514E1D07BD2000D38D72 /* Quit Button 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51241D07BD2000D38D72 /* Quit Button 2.png */; };
+		51FD514F1D07BD2000D38D72 /* Resume Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51251D07BD2000D38D72 /* Resume Button.png */; };
+		51FD51501D07BD2000D38D72 /* Show Score.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51261D07BD2000D38D72 /* Show Score.png */; };
+		51FD51511D07BD2000D38D72 /* Coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51281D07BD2000D38D72 /* Coin.png */; };
+		51FD51521D07BD2000D38D72 /* Life.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51291D07BD2000D38D72 /* Life.png */; };
+		51FD51531D07BD2000D38D72 /* Cloud 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD512B1D07BD2000D38D72 /* Cloud 1.png */; };
+		51FD51541D07BD2000D38D72 /* Cloud 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD512C1D07BD2000D38D72 /* Cloud 2.png */; };
+		51FD51551D07BD2000D38D72 /* Cloud 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD512D1D07BD2000D38D72 /* Cloud 3.png */; };
+		51FD51561D07BD2000D38D72 /* Dark Cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD512E1D07BD2000D38D72 /* Dark Cloud.png */; };
+		51FD51571D07BD2000D38D72 /* blow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51301D07BD2000D38D72 /* blow.ttf */; };
+		51FD51581D07BD2000D38D72 /* Background music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51321D07BD2000D38D72 /* Background music.mp3 */; };
+		51FD51591D07BD2000D38D72 /* Click Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51331D07BD2000D38D72 /* Click Sound.wav */; };
+		51FD515A1D07BD2000D38D72 /* Coin Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51341D07BD2000D38D72 /* Coin Sound.wav */; };
+		51FD515B1D07BD2000D38D72 /* Life Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51351D07BD2000D38D72 /* Life Sound.wav */; };
+		51FD515C1D07BD2000D38D72 /* Game BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51371D07BD2000D38D72 /* Game BG.png */; };
+		51FD515D1D07BD2000D38D72 /* Highscore BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51381D07BD2000D38D72 /* Highscore BG.png */; };
+		51FD515E1D07BD2000D38D72 /* Menu BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51391D07BD2000D38D72 /* Menu BG.png */; };
+		51FD515F1D07BD2000D38D72 /* Options BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD513A1D07BD2000D38D72 /* Options BG.png */; };
+		51FD51601D07BD2000D38D72 /* Pause Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD513D1D07BD2000D38D72 /* Pause Button.png */; };
+		51FD51611D07BD2000D38D72 /* Ready.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD513E1D07BD2000D38D72 /* Ready.png */; };
+		51FD51621D07BD2000D38D72 /* Score.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD513F1D07BD2000D38D72 /* Score.png */; };
+		51FD51631D07BD2000D38D72 /* Back Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51411D07BD2000D38D72 /* Back Button.png */; };
+		51FD51641D07BD2000D38D72 /* Check Sign.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51421D07BD2000D38D72 /* Check Sign.png */; };
+		51FD51651D07BD2000D38D72 /* Easy Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51431D07BD2000D38D72 /* Easy Button.png */; };
+		51FD51661D07BD2000D38D72 /* Hard Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51441D07BD2000D38D72 /* Hard Button.png */; };
+		51FD51671D07BD2000D38D72 /* Medium Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51451D07BD2000D38D72 /* Medium Button.png */; };
+		51FD51681D07BD2000D38D72 /* Highscore Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51471D07BD2000D38D72 /* Highscore Button.png */; };
+		51FD51691D07BD2000D38D72 /* Music Off Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51481D07BD2000D38D72 /* Music Off Button.png */; };
+		51FD516A1D07BD2000D38D72 /* Music On Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51491D07BD2000D38D72 /* Music On Button.png */; };
+		51FD516B1D07BD2000D38D72 /* Options Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD514A1D07BD2000D38D72 /* Options Button.png */; };
+		51FD516C1D07BD2000D38D72 /* Quit Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD514B1D07BD2000D38D72 /* Quit Button.png */; };
+		51FD516D1D07BD2000D38D72 /* Start Game Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD514C1D07BD2000D38D72 /* Start Game Button.png */; };
+		51FD51701D07BFAC00D38D72 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51FD516F1D07BFAC00D38D72 /* GameplayScene.sks */; };
+		51FD51741D07CAA800D38D72 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FD51731D07CAA800D38D72 /* GameplayScene.swift */; };
+		51FD517E1D07CD3A00D38D72 /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51761D07CD3A00D38D72 /* Player 1.png */; };
+		51FD517F1D07CD3A00D38D72 /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51771D07CD3A00D38D72 /* Player 2.png */; };
+		51FD51801D07CD3A00D38D72 /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51781D07CD3A00D38D72 /* Player 3.png */; };
+		51FD51811D07CD3A00D38D72 /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD51791D07CD3A00D38D72 /* Player 4.png */; };
+		51FD51821D07CD3A00D38D72 /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD517A1D07CD3A00D38D72 /* Player 5.png */; };
+		51FD51831D07CD3A00D38D72 /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD517B1D07CD3A00D38D72 /* Player 6.png */; };
+		51FD51841D07CD3A00D38D72 /* Player 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD517C1D07CD3A00D38D72 /* Player 7.png */; };
+		51FD51851D07CD3A00D38D72 /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FD517D1D07CD3A00D38D72 /* Player 8.png */; };
+		51FD51881D07CEAE00D38D72 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FD51871D07CEAE00D38D72 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51FD51051D07B7BB00D38D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51FD50E41D07B7BB00D38D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51FD50EB1D07B7BB00D38D72;
+			remoteInfo = "Mottu The Invincible";
+		};
+		51FD51101D07B7BB00D38D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51FD50E41D07B7BB00D38D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51FD50EB1D07B7BB00D38D72;
+			remoteInfo = "Mottu The Invincible";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5117A15E1D3F2B18004A57C9 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		512F07A91D24A18B005E19C0 /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		513DD6A91D1DBBCE00E3B6E4 /* CollectablesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectablesController.swift; sourceTree = "<group>"; };
+		514C5B901D1CD8650073C68A /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		5155C6191D0A6DA500996540 /* Player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player.atlas; sourceTree = "<group>"; };
+		5155C61B1D0A7B8000996540 /* GameplaySceneExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplaySceneExtension.swift; sourceTree = "<group>"; };
+		516181261D10EABB00AFB84B /* BGClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGClass.swift; sourceTree = "<group>"; };
+		516181291D10F3D800AFB84B /* CloudController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudController.swift; sourceTree = "<group>"; };
+		5162B8B41D14CC590043D913 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		5187EF9C1D14D85F000C56B1 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		51E371031D1613D400B17A53 /* HighscoreScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HighscoreScene.sks; sourceTree = "<group>"; };
+		51E371051D1617A100B17A53 /* OptionScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = OptionScene.sks; sourceTree = "<group>"; };
+		51F3A4821D1A351E0054C980 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		51F5EF7E1D18D8BE00556815 /* HighscoreScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreScene.swift; sourceTree = "<group>"; };
+		51F5EF801D18D91D00556815 /* OptionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionScene.swift; sourceTree = "<group>"; };
+		51FD50EC1D07B7BB00D38D72 /* Mottu The Invincible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mottu The Invincible.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FD50EF1D07B7BB00D38D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51FD50F11D07B7BB00D38D72 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		51FD50F31D07B7BB00D38D72 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		51FD50F51D07B7BB00D38D72 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		51FD50F81D07B7BB00D38D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51FD50FA1D07B7BB00D38D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51FD50FD1D07B7BB00D38D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51FD50FF1D07B7BB00D38D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FD51041D07B7BB00D38D72 /* Mottu The InvincibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mottu The InvincibleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FD51081D07B7BB00D38D72 /* Mottu_The_InvincibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mottu_The_InvincibleTests.swift; sourceTree = "<group>"; };
+		51FD510A1D07B7BB00D38D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FD510F1D07B7BB00D38D72 /* Mottu The InvincibleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mottu The InvincibleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FD51131D07B7BB00D38D72 /* Mottu_The_InvincibleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mottu_The_InvincibleUITests.swift; sourceTree = "<group>"; };
+		51FD51151D07B7BB00D38D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FD51231D07BD2000D38D72 /* Pause Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pause Menu.png"; sourceTree = "<group>"; };
+		51FD51241D07BD2000D38D72 /* Quit Button 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button 2.png"; sourceTree = "<group>"; };
+		51FD51251D07BD2000D38D72 /* Resume Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resume Button.png"; sourceTree = "<group>"; };
+		51FD51261D07BD2000D38D72 /* Show Score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Show Score.png"; sourceTree = "<group>"; };
+		51FD51281D07BD2000D38D72 /* Coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coin.png; sourceTree = "<group>"; };
+		51FD51291D07BD2000D38D72 /* Life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Life.png; sourceTree = "<group>"; };
+		51FD512B1D07BD2000D38D72 /* Cloud 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 1.png"; sourceTree = "<group>"; };
+		51FD512C1D07BD2000D38D72 /* Cloud 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 2.png"; sourceTree = "<group>"; };
+		51FD512D1D07BD2000D38D72 /* Cloud 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cloud 3.png"; sourceTree = "<group>"; };
+		51FD512E1D07BD2000D38D72 /* Dark Cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark Cloud.png"; sourceTree = "<group>"; };
+		51FD51301D07BD2000D38D72 /* blow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blow.ttf; sourceTree = "<group>"; };
+		51FD51321D07BD2000D38D72 /* Background music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Background music.mp3"; sourceTree = "<group>"; };
+		51FD51331D07BD2000D38D72 /* Click Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Click Sound.wav"; sourceTree = "<group>"; };
+		51FD51341D07BD2000D38D72 /* Coin Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Coin Sound.wav"; sourceTree = "<group>"; };
+		51FD51351D07BD2000D38D72 /* Life Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Life Sound.wav"; sourceTree = "<group>"; };
+		51FD51371D07BD2000D38D72 /* Game BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Game BG.png"; sourceTree = "<group>"; };
+		51FD51381D07BD2000D38D72 /* Highscore BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Highscore BG.png"; sourceTree = "<group>"; };
+		51FD51391D07BD2000D38D72 /* Menu BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu BG.png"; sourceTree = "<group>"; };
+		51FD513A1D07BD2000D38D72 /* Options BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Options BG.png"; sourceTree = "<group>"; };
+		51FD513D1D07BD2000D38D72 /* Pause Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pause Button.png"; sourceTree = "<group>"; };
+		51FD513E1D07BD2000D38D72 /* Ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ready.png; sourceTree = "<group>"; };
+		51FD513F1D07BD2000D38D72 /* Score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Score.png; sourceTree = "<group>"; };
+		51FD51411D07BD2000D38D72 /* Back Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Button.png"; sourceTree = "<group>"; };
+		51FD51421D07BD2000D38D72 /* Check Sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Check Sign.png"; sourceTree = "<group>"; };
+		51FD51431D07BD2000D38D72 /* Easy Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Easy Button.png"; sourceTree = "<group>"; };
+		51FD51441D07BD2000D38D72 /* Hard Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hard Button.png"; sourceTree = "<group>"; };
+		51FD51451D07BD2000D38D72 /* Medium Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Medium Button.png"; sourceTree = "<group>"; };
+		51FD51471D07BD2000D38D72 /* Highscore Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Highscore Button.png"; sourceTree = "<group>"; };
+		51FD51481D07BD2000D38D72 /* Music Off Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music Off Button.png"; sourceTree = "<group>"; };
+		51FD51491D07BD2000D38D72 /* Music On Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music On Button.png"; sourceTree = "<group>"; };
+		51FD514A1D07BD2000D38D72 /* Options Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Options Button.png"; sourceTree = "<group>"; };
+		51FD514B1D07BD2000D38D72 /* Quit Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quit Button.png"; sourceTree = "<group>"; };
+		51FD514C1D07BD2000D38D72 /* Start Game Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Game Button.png"; sourceTree = "<group>"; };
+		51FD516F1D07BFAC00D38D72 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		51FD51731D07CAA800D38D72 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		51FD51761D07CD3A00D38D72 /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
+		51FD51771D07CD3A00D38D72 /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
+		51FD51781D07CD3A00D38D72 /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
+		51FD51791D07CD3A00D38D72 /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
+		51FD517A1D07CD3A00D38D72 /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
+		51FD517B1D07CD3A00D38D72 /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
+		51FD517C1D07CD3A00D38D72 /* Player 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 7.png"; sourceTree = "<group>"; };
+		51FD517D1D07CD3A00D38D72 /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
+		51FD51871D07CEAE00D38D72 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51FD50E91D07B7BB00D38D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FD51011D07B7BB00D38D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FD510C1D07B7BB00D38D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		512F07AB1D24A19B005E19C0 /* Game Data Class */ = {
+			isa = PBXGroup;
+			children = (
+				512F07A91D24A18B005E19C0 /* GameData.swift */,
+			);
+			name = "Game Data Class";
+			sourceTree = "<group>";
+		};
+		516181251D10E7C200AFB84B /* Background Class */ = {
+			isa = PBXGroup;
+			children = (
+				516181261D10EABB00AFB84B /* BGClass.swift */,
+			);
+			name = "Background Class";
+			sourceTree = "<group>";
+		};
+		516181281D10F3BE00AFB84B /* Cloud And Collectables Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				516181291D10F3D800AFB84B /* CloudController.swift */,
+				513DD6A91D1DBBCE00E3B6E4 /* CollectablesController.swift */,
+			);
+			name = "Cloud And Collectables Controllers";
+			sourceTree = "<group>";
+		};
+		51F3A4811D1A34F70054C980 /* Game Controller And Managers */ = {
+			isa = PBXGroup;
+			children = (
+				51F3A4821D1A351E0054C980 /* GameController.swift */,
+				514C5B901D1CD8650073C68A /* GameManager.swift */,
+				5117A15E1D3F2B18004A57C9 /* AudioManager.swift */,
+			);
+			name = "Game Controller And Managers";
+			sourceTree = "<group>";
+		};
+		51FD50E31D07B7BB00D38D72 = {
+			isa = PBXGroup;
+			children = (
+				51FD50EE1D07B7BB00D38D72 /* Mottu The Invincible */,
+				51FD51071D07B7BB00D38D72 /* Mottu The InvincibleTests */,
+				51FD51121D07B7BB00D38D72 /* Mottu The InvincibleUITests */,
+				51FD50ED1D07B7BB00D38D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51FD50ED1D07B7BB00D38D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51FD50EC1D07B7BB00D38D72 /* Mottu The Invincible.app */,
+				51FD51041D07B7BB00D38D72 /* Mottu The InvincibleTests.xctest */,
+				51FD510F1D07B7BB00D38D72 /* Mottu The InvincibleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51FD50EE1D07B7BB00D38D72 /* Mottu The Invincible */ = {
+			isa = PBXGroup;
+			children = (
+				51FD50EF1D07B7BB00D38D72 /* AppDelegate.swift */,
+				51FD50F11D07B7BB00D38D72 /* GameScene.sks */,
+				51FD50F31D07B7BB00D38D72 /* GameScene.swift */,
+				51FD50F51D07B7BB00D38D72 /* GameViewController.swift */,
+				51FD50F71D07B7BB00D38D72 /* Main.storyboard */,
+				51FD50FA1D07B7BB00D38D72 /* Assets.xcassets */,
+				51FD50FC1D07B7BB00D38D72 /* LaunchScreen.storyboard */,
+				51FD50FF1D07B7BB00D38D72 /* Info.plist */,
+				51FD516E1D07BDB600D38D72 /* Scenes */,
+				51FD51711D07C9F500D38D72 /* Game Classes */,
+				51FD51211D07BA1000D38D72 /* Assets */,
+			);
+			path = "Mottu The Invincible";
+			sourceTree = "<group>";
+		};
+		51FD51071D07B7BB00D38D72 /* Mottu The InvincibleTests */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51081D07B7BB00D38D72 /* Mottu_The_InvincibleTests.swift */,
+				51FD510A1D07B7BB00D38D72 /* Info.plist */,
+			);
+			path = "Mottu The InvincibleTests";
+			sourceTree = "<group>";
+		};
+		51FD51121D07B7BB00D38D72 /* Mottu The InvincibleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51131D07B7BB00D38D72 /* Mottu_The_InvincibleUITests.swift */,
+				51FD51151D07B7BB00D38D72 /* Info.plist */,
+			);
+			path = "Mottu The InvincibleUITests";
+			sourceTree = "<group>";
+		};
+		51FD51211D07BA1000D38D72 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5155C6191D0A6DA500996540 /* Player.atlas */,
+				51FD51751D07CD3A00D38D72 /* Player */,
+				51FD51221D07BD2000D38D72 /* 1 - Pause Panel And Buttons */,
+				51FD51271D07BD2000D38D72 /* 2 - Collectables */,
+				51FD512A1D07BD2000D38D72 /* 4 - Clouds */,
+				51FD512F1D07BD2000D38D72 /* 5 - Fonts */,
+				51FD51311D07BD2000D38D72 /* 6 - Music */,
+				51FD51361D07BD2000D38D72 /* 7 - Backgrounds */,
+				51FD513B1D07BD2000D38D72 /* 8 - Buttons */,
+			);
+			name = Assets;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		51FD51221D07BD2000D38D72 /* 1 - Pause Panel And Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51231D07BD2000D38D72 /* Pause Menu.png */,
+				51FD51241D07BD2000D38D72 /* Quit Button 2.png */,
+				51FD51251D07BD2000D38D72 /* Resume Button.png */,
+				51FD51261D07BD2000D38D72 /* Show Score.png */,
+			);
+			path = "1 - Pause Panel And Buttons";
+			sourceTree = "<group>";
+		};
+		51FD51271D07BD2000D38D72 /* 2 - Collectables */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51281D07BD2000D38D72 /* Coin.png */,
+				51FD51291D07BD2000D38D72 /* Life.png */,
+			);
+			path = "2 - Collectables";
+			sourceTree = "<group>";
+		};
+		51FD512A1D07BD2000D38D72 /* 4 - Clouds */ = {
+			isa = PBXGroup;
+			children = (
+				51FD512B1D07BD2000D38D72 /* Cloud 1.png */,
+				51FD512C1D07BD2000D38D72 /* Cloud 2.png */,
+				51FD512D1D07BD2000D38D72 /* Cloud 3.png */,
+				51FD512E1D07BD2000D38D72 /* Dark Cloud.png */,
+			);
+			path = "4 - Clouds";
+			sourceTree = "<group>";
+		};
+		51FD512F1D07BD2000D38D72 /* 5 - Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51301D07BD2000D38D72 /* blow.ttf */,
+			);
+			path = "5 - Fonts";
+			sourceTree = "<group>";
+		};
+		51FD51311D07BD2000D38D72 /* 6 - Music */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51321D07BD2000D38D72 /* Background music.mp3 */,
+				51FD51331D07BD2000D38D72 /* Click Sound.wav */,
+				51FD51341D07BD2000D38D72 /* Coin Sound.wav */,
+				51FD51351D07BD2000D38D72 /* Life Sound.wav */,
+			);
+			path = "6 - Music";
+			sourceTree = "<group>";
+		};
+		51FD51361D07BD2000D38D72 /* 7 - Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51371D07BD2000D38D72 /* Game BG.png */,
+				51FD51381D07BD2000D38D72 /* Highscore BG.png */,
+				51FD51391D07BD2000D38D72 /* Menu BG.png */,
+				51FD513A1D07BD2000D38D72 /* Options BG.png */,
+			);
+			path = "7 - Backgrounds";
+			sourceTree = "<group>";
+		};
+		51FD513B1D07BD2000D38D72 /* 8 - Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				51FD513C1D07BD2000D38D72 /* 1 - Gameplay Buttons */,
+				51FD51401D07BD2000D38D72 /* 2 - Options Buttons */,
+				51FD51461D07BD2000D38D72 /* 3 - Main Menu Buttons */,
+			);
+			path = "8 - Buttons";
+			sourceTree = "<group>";
+		};
+		51FD513C1D07BD2000D38D72 /* 1 - Gameplay Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				51FD513D1D07BD2000D38D72 /* Pause Button.png */,
+				51FD513E1D07BD2000D38D72 /* Ready.png */,
+				51FD513F1D07BD2000D38D72 /* Score.png */,
+			);
+			path = "1 - Gameplay Buttons";
+			sourceTree = "<group>";
+		};
+		51FD51401D07BD2000D38D72 /* 2 - Options Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51411D07BD2000D38D72 /* Back Button.png */,
+				51FD51421D07BD2000D38D72 /* Check Sign.png */,
+				51FD51431D07BD2000D38D72 /* Easy Button.png */,
+				51FD51441D07BD2000D38D72 /* Hard Button.png */,
+				51FD51451D07BD2000D38D72 /* Medium Button.png */,
+			);
+			path = "2 - Options Buttons";
+			sourceTree = "<group>";
+		};
+		51FD51461D07BD2000D38D72 /* 3 - Main Menu Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51471D07BD2000D38D72 /* Highscore Button.png */,
+				51FD51481D07BD2000D38D72 /* Music Off Button.png */,
+				51FD51491D07BD2000D38D72 /* Music On Button.png */,
+				51FD514A1D07BD2000D38D72 /* Options Button.png */,
+				51FD514B1D07BD2000D38D72 /* Quit Button.png */,
+				51FD514C1D07BD2000D38D72 /* Start Game Button.png */,
+			);
+			path = "3 - Main Menu Buttons";
+			sourceTree = "<group>";
+		};
+		51FD516E1D07BDB600D38D72 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				51FD516F1D07BFAC00D38D72 /* GameplayScene.sks */,
+				5162B8B41D14CC590043D913 /* MainMenu.sks */,
+				51E371031D1613D400B17A53 /* HighscoreScene.sks */,
+				51E371051D1617A100B17A53 /* OptionScene.sks */,
+			);
+			name = Scenes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		51FD51711D07C9F500D38D72 /* Game Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51F3A4811D1A34F70054C980 /* Game Controller And Managers */,
+				516181281D10F3BE00AFB84B /* Cloud And Collectables Controllers */,
+				516181251D10E7C200AFB84B /* Background Class */,
+				51FD51861D07CE9D00D38D72 /* Player Classes */,
+				51FD51721D07CA6A00D38D72 /* Scene Classes */,
+				512F07AB1D24A19B005E19C0 /* Game Data Class */,
+			);
+			name = "Game Classes";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		51FD51721D07CA6A00D38D72 /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51731D07CAA800D38D72 /* GameplayScene.swift */,
+				5187EF9C1D14D85F000C56B1 /* MainMenuScene.swift */,
+				5155C61B1D0A7B8000996540 /* GameplaySceneExtension.swift */,
+				51F5EF7E1D18D8BE00556815 /* HighscoreScene.swift */,
+				51F5EF801D18D91D00556815 /* OptionScene.swift */,
+			);
+			name = "Scene Classes";
+			sourceTree = "<group>";
+		};
+		51FD51751D07CD3A00D38D72 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51761D07CD3A00D38D72 /* Player 1.png */,
+				51FD51771D07CD3A00D38D72 /* Player 2.png */,
+				51FD51781D07CD3A00D38D72 /* Player 3.png */,
+				51FD51791D07CD3A00D38D72 /* Player 4.png */,
+				51FD517A1D07CD3A00D38D72 /* Player 5.png */,
+				51FD517B1D07CD3A00D38D72 /* Player 6.png */,
+				51FD517C1D07CD3A00D38D72 /* Player 7.png */,
+				51FD517D1D07CD3A00D38D72 /* Player 8.png */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		51FD51861D07CE9D00D38D72 /* Player Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51FD51871D07CEAE00D38D72 /* Player.swift */,
+			);
+			name = "Player Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51FD50EB1D07B7BB00D38D72 /* Mottu The Invincible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FD51181D07B7BB00D38D72 /* Build configuration list for PBXNativeTarget "Mottu The Invincible" */;
+			buildPhases = (
+				51FD50E81D07B7BB00D38D72 /* Sources */,
+				51FD50E91D07B7BB00D38D72 /* Frameworks */,
+				51FD50EA1D07B7BB00D38D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mottu The Invincible";
+			productName = "Mottu The Invincible";
+			productReference = 51FD50EC1D07B7BB00D38D72 /* Mottu The Invincible.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51FD51031D07B7BB00D38D72 /* Mottu The InvincibleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FD511B1D07B7BB00D38D72 /* Build configuration list for PBXNativeTarget "Mottu The InvincibleTests" */;
+			buildPhases = (
+				51FD51001D07B7BB00D38D72 /* Sources */,
+				51FD51011D07B7BB00D38D72 /* Frameworks */,
+				51FD51021D07B7BB00D38D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51FD51061D07B7BB00D38D72 /* PBXTargetDependency */,
+			);
+			name = "Mottu The InvincibleTests";
+			productName = "Mottu The InvincibleTests";
+			productReference = 51FD51041D07B7BB00D38D72 /* Mottu The InvincibleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51FD510E1D07B7BB00D38D72 /* Mottu The InvincibleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FD511E1D07B7BB00D38D72 /* Build configuration list for PBXNativeTarget "Mottu The InvincibleUITests" */;
+			buildPhases = (
+				51FD510B1D07B7BB00D38D72 /* Sources */,
+				51FD510C1D07B7BB00D38D72 /* Frameworks */,
+				51FD510D1D07B7BB00D38D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51FD51111D07B7BB00D38D72 /* PBXTargetDependency */,
+			);
+			name = "Mottu The InvincibleUITests";
+			productName = "Mottu The InvincibleUITests";
+			productReference = 51FD510F1D07B7BB00D38D72 /* Mottu The InvincibleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51FD50E41D07B7BB00D38D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mahesh;
+				TargetAttributes = {
+					51FD50EB1D07B7BB00D38D72 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L3JX44JDML;
+					};
+					51FD51031D07B7BB00D38D72 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 51FD50EB1D07B7BB00D38D72;
+					};
+					51FD510E1D07B7BB00D38D72 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 51FD50EB1D07B7BB00D38D72;
+					};
+				};
+			};
+			buildConfigurationList = 51FD50E71D07B7BB00D38D72 /* Build configuration list for PBXProject "Mottu The Invincible" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51FD50E31D07B7BB00D38D72;
+			productRefGroup = 51FD50ED1D07B7BB00D38D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51FD50EB1D07B7BB00D38D72 /* Mottu The Invincible */,
+				51FD51031D07B7BB00D38D72 /* Mottu The InvincibleTests */,
+				51FD510E1D07B7BB00D38D72 /* Mottu The InvincibleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51FD50EA1D07B7BB00D38D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FD515A1D07BD2000D38D72 /* Coin Sound.wav in Resources */,
+				51FD515B1D07BD2000D38D72 /* Life Sound.wav in Resources */,
+				51FD51561D07BD2000D38D72 /* Dark Cloud.png in Resources */,
+				51FD51611D07BD2000D38D72 /* Ready.png in Resources */,
+				51FD515F1D07BD2000D38D72 /* Options BG.png in Resources */,
+				51FD516B1D07BD2000D38D72 /* Options Button.png in Resources */,
+				51FD51661D07BD2000D38D72 /* Hard Button.png in Resources */,
+				51FD51511D07BD2000D38D72 /* Coin.png in Resources */,
+				51FD51811D07CD3A00D38D72 /* Player 4.png in Resources */,
+				51FD514D1D07BD2000D38D72 /* Pause Menu.png in Resources */,
+				51FD515C1D07BD2000D38D72 /* Game BG.png in Resources */,
+				51FD515D1D07BD2000D38D72 /* Highscore BG.png in Resources */,
+				51FD51581D07BD2000D38D72 /* Background music.mp3 in Resources */,
+				51FD51801D07CD3A00D38D72 /* Player 3.png in Resources */,
+				51FD514F1D07BD2000D38D72 /* Resume Button.png in Resources */,
+				51FD51821D07CD3A00D38D72 /* Player 5.png in Resources */,
+				51FD50F21D07B7BB00D38D72 /* GameScene.sks in Resources */,
+				51FD51841D07CD3A00D38D72 /* Player 7.png in Resources */,
+				51FD51591D07BD2000D38D72 /* Click Sound.wav in Resources */,
+				51FD51571D07BD2000D38D72 /* blow.ttf in Resources */,
+				51FD51851D07CD3A00D38D72 /* Player 8.png in Resources */,
+				51E371061D1617A100B17A53 /* OptionScene.sks in Resources */,
+				51FD51691D07BD2000D38D72 /* Music Off Button.png in Resources */,
+				51FD51601D07BD2000D38D72 /* Pause Button.png in Resources */,
+				51FD50FE1D07B7BB00D38D72 /* LaunchScreen.storyboard in Resources */,
+				51FD51551D07BD2000D38D72 /* Cloud 3.png in Resources */,
+				51FD50FB1D07B7BB00D38D72 /* Assets.xcassets in Resources */,
+				51FD516C1D07BD2000D38D72 /* Quit Button.png in Resources */,
+				51FD517F1D07CD3A00D38D72 /* Player 2.png in Resources */,
+				51E371041D1613D400B17A53 /* HighscoreScene.sks in Resources */,
+				51FD51701D07BFAC00D38D72 /* GameplayScene.sks in Resources */,
+				51FD517E1D07CD3A00D38D72 /* Player 1.png in Resources */,
+				51FD50F91D07B7BB00D38D72 /* Main.storyboard in Resources */,
+				51FD51631D07BD2000D38D72 /* Back Button.png in Resources */,
+				51FD51641D07BD2000D38D72 /* Check Sign.png in Resources */,
+				51FD51541D07BD2000D38D72 /* Cloud 2.png in Resources */,
+				51FD51521D07BD2000D38D72 /* Life.png in Resources */,
+				51FD51501D07BD2000D38D72 /* Show Score.png in Resources */,
+				51FD51831D07CD3A00D38D72 /* Player 6.png in Resources */,
+				5162B8B51D14CC590043D913 /* MainMenu.sks in Resources */,
+				51FD51671D07BD2000D38D72 /* Medium Button.png in Resources */,
+				5155C61A1D0A6DA500996540 /* Player.atlas in Resources */,
+				51FD51621D07BD2000D38D72 /* Score.png in Resources */,
+				51FD51651D07BD2000D38D72 /* Easy Button.png in Resources */,
+				51FD514E1D07BD2000D38D72 /* Quit Button 2.png in Resources */,
+				51FD516A1D07BD2000D38D72 /* Music On Button.png in Resources */,
+				51FD515E1D07BD2000D38D72 /* Menu BG.png in Resources */,
+				51FD51531D07BD2000D38D72 /* Cloud 1.png in Resources */,
+				51FD51681D07BD2000D38D72 /* Highscore Button.png in Resources */,
+				51FD516D1D07BD2000D38D72 /* Start Game Button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FD51021D07B7BB00D38D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FD510D1D07B7BB00D38D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51FD50E81D07B7BB00D38D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513DD6AA1D1DBBCE00E3B6E4 /* CollectablesController.swift in Sources */,
+				512F07AA1D24A18B005E19C0 /* GameData.swift in Sources */,
+				51FD51741D07CAA800D38D72 /* GameplayScene.swift in Sources */,
+				51F3A4831D1A351E0054C980 /* GameController.swift in Sources */,
+				51FD50F41D07B7BB00D38D72 /* GameScene.swift in Sources */,
+				516181271D10EABB00AFB84B /* BGClass.swift in Sources */,
+				5187EF9D1D14D85F000C56B1 /* MainMenuScene.swift in Sources */,
+				5161812A1D10F3D800AFB84B /* CloudController.swift in Sources */,
+				51FD50F61D07B7BB00D38D72 /* GameViewController.swift in Sources */,
+				51F5EF811D18D91D00556815 /* OptionScene.swift in Sources */,
+				5117A15F1D3F2B18004A57C9 /* AudioManager.swift in Sources */,
+				51FD51881D07CEAE00D38D72 /* Player.swift in Sources */,
+				51F5EF7F1D18D8BE00556815 /* HighscoreScene.swift in Sources */,
+				5155C61C1D0A7B8000996540 /* GameplaySceneExtension.swift in Sources */,
+				51FD50F01D07B7BB00D38D72 /* AppDelegate.swift in Sources */,
+				514C5B911D1CD8650073C68A /* GameManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FD51001D07B7BB00D38D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FD51091D07B7BB00D38D72 /* Mottu_The_InvincibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FD510B1D07B7BB00D38D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FD51141D07B7BB00D38D72 /* Mottu_The_InvincibleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51FD51061D07B7BB00D38D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51FD50EB1D07B7BB00D38D72 /* Mottu The Invincible */;
+			targetProxy = 51FD51051D07B7BB00D38D72 /* PBXContainerItemProxy */;
+		};
+		51FD51111D07B7BB00D38D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51FD50EB1D07B7BB00D38D72 /* Mottu The Invincible */;
+			targetProxy = 51FD51101D07B7BB00D38D72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51FD50F71D07B7BB00D38D72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FD50F81D07B7BB00D38D72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51FD50FC1D07B7BB00D38D72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FD50FD1D07B7BB00D38D72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51FD51161D07B7BB00D38D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51FD51171D07B7BB00D38D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51FD51191D07B7BB00D38D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Mottu The Invincible/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahesh.Mottu-The-Invincible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		51FD511A1D07B7BB00D38D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Mottu The Invincible/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahesh.Mottu-The-Invincible";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		51FD511C1D07B7BB00D38D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Mottu The InvincibleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahesh.Mottu-The-InvincibleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mottu The Invincible.app/Mottu The Invincible";
+			};
+			name = Debug;
+		};
+		51FD511D1D07B7BB00D38D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mottu The InvincibleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahesh.Mottu-The-InvincibleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mottu The Invincible.app/Mottu The Invincible";
+			};
+			name = Release;
+		};
+		51FD511F1D07B7BB00D38D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Mottu The InvincibleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahesh.Mottu-The-InvincibleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mottu The Invincible";
+			};
+			name = Debug;
+		};
+		51FD51201D07B7BB00D38D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mottu The InvincibleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahesh.Mottu-The-InvincibleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mottu The Invincible";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51FD50E71D07B7BB00D38D72 /* Build configuration list for PBXProject "Mottu The Invincible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FD51161D07B7BB00D38D72 /* Debug */,
+				51FD51171D07B7BB00D38D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FD51181D07B7BB00D38D72 /* Build configuration list for PBXNativeTarget "Mottu The Invincible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FD51191D07B7BB00D38D72 /* Debug */,
+				51FD511A1D07B7BB00D38D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FD511B1D07B7BB00D38D72 /* Build configuration list for PBXNativeTarget "Mottu The InvincibleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FD511C1D07B7BB00D38D72 /* Debug */,
+				51FD511D1D07B7BB00D38D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FD511E1D07B7BB00D38D72 /* Build configuration list for PBXNativeTarget "Mottu The InvincibleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FD511F1D07B7BB00D38D72 /* Debug */,
+				51FD51201D07B7BB00D38D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51FD50E41D07B7BB00D38D72 /* Project object */;
+}
